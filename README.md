@@ -1,4 +1,4 @@
-# https://www.gawcode.com
+# http://www.gawcode.com
 ## The club website
 
 Managed by CODE Club's Web Development Committee
