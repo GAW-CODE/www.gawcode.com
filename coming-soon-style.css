@@ -2,7 +2,9 @@ body{
 	font-family: 'Comfortaa', cursive;
 	margin: 0;
 	padding: 0;
-	font-size: 100%
+	font-size: 100%;
+	color: white;
+	text-align: center;
 }
 
 header{
@@ -12,6 +14,7 @@ header{
 	background-position: absolute;
 	background-attachment: fixed;
 	background-color: gray;
+	text-align: center;
 }
 header h1{
 	width: 60%;
@@ -20,10 +23,17 @@ header h1{
 	top: 15%;
 	text-align: center;
 	font-size: 5em;
-	color: white;
-	transform: translateY(200px);
+	transform: translateY(100px);
 	border: 7px solid white;
 	padding: 2%;
+}
+
+header img {
+	height: 100px;
+	width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section, div, header, footer{
@@ -34,33 +44,22 @@ section, div, header, footer{
 }
 h2{
 	font-size: 3em;
-	color: black;
 	width: 40%;
 	text-align: center;
-	border-bottom: 5px solid blue;
 	margin: auto;
 }
 section.one{
 	background-color: skyblue;
 }
-div.social{
-	height: 300px;
+
+div.social {
+	display: flex;
+	justify-content: space-between;
 }
-div.social figure{
-	width: 29%;
-	padding: 1%;
-}
-div.social figure img{
-	display: inline-block;
-	width: 60%;
-	margin: auto;
-	padding: 1%;
-}
-div.social figure figcaption{
-	font-size: 1.3em;
-	color: gray;
-	text-align: center;
-	padding: 1.7%;
+
+.social-media {
+	height: 100px;
+	width: 100px;
 }
 
 section.two{
@@ -68,21 +67,34 @@ section.two{
 }
 h3{
 	font-size: 2.5em;
-	color: black;
-	width: 20%;
 	text-align: center;
 	margin: auto;
 	padding-top: 3%;
 }
-div.com img{
-	width: 33%;
-	margin: 0;
-	padding: 0;
+
+.committee img {
+	height: 300px;
+	padding: 10px;
 }
+
+.two a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 5px solid white;
+    width: 200px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.two a:hover {
+	background: rgba(255, 255, 255, 0.25);
+}
+
 footer{
-	padding: 2.5%;
 	background-color: black;
-}
-footer h2{
-	color: white;
 }
