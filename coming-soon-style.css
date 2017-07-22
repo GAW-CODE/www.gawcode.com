@@ -1,0 +1,106 @@
+body{
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	color: white;
+	text-align: center;
+}
+
+header{
+	height: 800px;
+	background-image: url(assets/campers.jpg);
+	background-size: cover;
+	background-position: absolute;
+	background-attachment: fixed;
+	background-color: gray;
+	text-align: center;
+}
+header h1{
+	width: 60%;
+	margin: auto;
+	vertical-align: middle;
+	top: 15%;
+	text-align: center;
+	font-size: 5em;
+	transform: translateY(100px);
+	border: 7px solid white;
+	padding: 2%;
+}
+
+header img {
+	height: 100px;
+	width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section, div, header, footer{
+	width: 100%;
+	margin: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+h2{
+	font-size: 3em;
+	width: 40%;
+	text-align: center;
+	margin: auto;
+}
+section.one{
+	background-color: skyblue;
+}
+
+div.social {
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-media {
+	height: 100px;
+	width: 100px;
+	transform: translateY(0);
+	transition: transform 0.6s;
+}
+
+.social-media:hover{
+	transform: translateY(-25px);
+}
+
+section.two{
+	background-color: turquoise;
+}
+h3{
+	font-size: 2.5em;
+	text-align: center;
+	margin: auto;
+	padding-top: 3%;
+}
+
+.committee img {
+	height: 300px;
+	padding: 10px;
+}
+
+.two a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 5px solid white;
+    width: 200px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.two a:hover {
+	background: rgba(255, 255, 255, 0.25);
+}
+
+footer{
+	background-color: black;
+}
